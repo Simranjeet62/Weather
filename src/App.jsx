@@ -44,7 +44,7 @@ export default function App() {
   );
 
   return (
-    <>
+    <div className="background">
       <Logo_Search
         setCity={setSearchCity}
         city={searchCity}
@@ -57,6 +57,6 @@ export default function App() {
       ) : (
         <h1 className="text-center text-3xl mt-6">⛔Server Error</h1>
       )}
-    </>
+    </div>
   );
 }

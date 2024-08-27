@@ -8,7 +8,7 @@ export default function Weather({ weather = {}, geoPosition }) {
     <div className="p-6 flex flex-col gap-8 items-center ">
       <h1 className="text-center text-2xl  font-medium">Current Weather</h1>
       <div className="flex gap-5">
-        <div className="flex gap-10 bg-gray-100 rounded-lg p-8">
+        <div className="flex gap-10 bg-gray-100 bg-opacity-60 rounded-lg p-8">
           <div>
             <span className="text-lg">
               Last updated: {current.last_updated}
@@ -22,7 +22,7 @@ export default function Weather({ weather = {}, geoPosition }) {
             </div>
             <span className="text-xl">{current.condition.text}</span>
           </div>
-          <div className="grid grid-cols-2 text-lg font-normal self-center gap-1 bg-gray-50 p-10 rounded-lg">
+          <div className="grid grid-cols-2 text-lg font-normal self-center gap-1 bg-gray-50 bg-opacity-50 p-10 rounded-lg">
             <span>Feels like: {current.feelslike_c}&deg;C</span>
             <span>Dew point: {current.dewpoint_c}&deg;C</span>
             <span>Humidity: {current.humidity}%</span>

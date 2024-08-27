@@ -1,6 +1,6 @@
 export default function Hour({ hour }) {
   return (
-    <div className="border border-solid border-black rounded-lg text-center flex-shrink-0">
+    <div className="border border-solid border-white rounded-lg text-center flex-shrink-0 bg-sky-100 bg-opacity-60">
       <div className="p-1">
         <span>{hour.time}</span>
         <div className="flex items-center">
