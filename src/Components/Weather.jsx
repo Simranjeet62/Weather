@@ -5,7 +5,7 @@ export default function Weather({ weather = {}, geoPosition }) {
   const { current, location } = weather;
 
   return (
-    <div className="p-6 flex flex-col gap-8 items-center ">
+    <div className="p-3 mt-6 flex flex-col gap-8 items-center ">
       <h1 className="text-center text-2xl  font-medium">Current Weather</h1>
       <div className="flex gap-5">
         <div className="flex gap-10 bg-gray-100 bg-opacity-60 rounded-lg p-8">

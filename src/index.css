@@ -8,10 +8,6 @@
   border-radius: 10px;
 }
 
-body {
-  /* color: #111; */
-}
-
 .background {
   background: linear-gradient(
       rgba(168, 168, 168, 0.4),
@@ -19,7 +15,6 @@ body {
     ),
     url("background.jpg");
   opacity: 5;
-  height: 100vh;
 }
 
 ::-webkit-scrollbar {

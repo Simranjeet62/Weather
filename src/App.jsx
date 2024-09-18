@@ -44,7 +44,7 @@ export default function App() {
   );
 
   return (
-    <div className="background">
+    <div className="background h-screen">
       <Logo_Search
         setCity={setSearchCity}
         city={searchCity}
