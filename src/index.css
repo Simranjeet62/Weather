@@ -8,15 +8,6 @@
   border-radius: 10px;
 }
 
-.background {
-  background: linear-gradient(
-      rgba(168, 168, 168, 0.4),
-      rgba(168, 168, 168, 0.4)
-    ),
-    url("background.jpg");
-  opacity: 5;
-}
-
 ::-webkit-scrollbar {
   height: 10px;
   width: 10px;

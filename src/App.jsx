@@ -44,7 +44,7 @@ export default function App() {
   );
 
   return (
-    <div className="background h-screen">
+    <div className="bg-[linear-gradient(rgba(168,168,168,0.4),rgba(168,168,168,0.4)),url('background.jpg')] opasity-50 h-screen">
       <Logo_Search
         setCity={setSearchCity}
         city={searchCity}
